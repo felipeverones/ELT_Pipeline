@@ -1,0 +1,18 @@
+
+target/
+dbt_packages/
+logs/
+
+# Arquivos de configuração local
+*.lock
+*.log
+*.env
+__pycache__/
+
+# Ambiente virtual Python
+dbt-env/
+venv/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
